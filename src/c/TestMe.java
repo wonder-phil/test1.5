@@ -3,11 +3,9 @@ package c;
 public class TestMe {
 	private double value = Double.NaN;
 
-	public static void main(String[] args) {
-		System.out.println("Hello world!");
+	public TestMe() {
+		System.out.println("In constructor");
 	}
-
-	public TestMe() {}
 
 	public double square() { return value*value; }
 	public void setValue(double v) {

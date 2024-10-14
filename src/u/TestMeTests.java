@@ -34,7 +34,7 @@ public class TestMeTests {
 
 		double baseValue = 3.0;
 		double expected = baseValue*baseValue;
-		testMe.setValue(3.01);
+		testMe.setValue(3.1);
 		double actual = testMe.square();
 
 		assertTrue(Math.abs(actual- expected) < epsilon);
